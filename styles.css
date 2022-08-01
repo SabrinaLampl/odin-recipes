@@ -1,0 +1,74 @@
+h1 {
+  color:aliceblue;
+  background-color: blueviolet;
+  font-size: 32px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2, h3 {
+  color: blueviolet;
+  font-size: 25px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  width: 50%; 
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+}
+
+.link {
+  display:block;
+  text-align: center;
+  background-color: aliceblue;
+  color: blueviolet;
+  font-size: 25px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+
+.ul-without-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+ul {
+  text-align: center;
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  font-weight:lighter;
+  font-style: italic;
+}
+
+ol {
+ 
+  list-style-position: inside;
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  font-weight:lighter;
+  font-style: italic;
+  width: 50%; 
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+img{
+  height: auto;
+  width: 500px;
+}
